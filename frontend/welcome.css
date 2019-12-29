@@ -1,0 +1,147 @@
+/* this in case i need it for animation on the welcome page */
+
+body {
+    /* background: #2b3844; */
+    background: #5774b8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+
+
+
+.dinMufBig span {
+    display:inline-flex;
+    margin: 1px;
+}
+
+.dinMufBig span:nth-child(even) {
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    /* color: #faefde; */
+    letter-spacing: -1em;
+}
+.dinMufBig:hover span:nth-child(even) {
+    letter-spacing: 0;
+}
+
+
+
+
+.ptag {
+    color: #faefde;
+    font-weight: 900;
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-size: xx-large;
+
+}
+
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    color: #faefde;
+    
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; 
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+
+  @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+/* here lies the blue dundermifflin color */
+    /* background-color: #5774b8; */
+  
+
+  
+  
+  /* .sandbox-correct-pronounciation {
+    padding: 10em 0 10em 0;
+    }
+  
+  .heading-correct-pronounciation {
+    
+    margin: auto;
+    text-align: center;
+    position: relative;
+    } */
+  
+  
+  h1 {
+    color: #fff;
+    font-family: 'Cardo', serif;
+    font-size: 800%;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 5px;
+    line-height: 110px;
+    }
+  
+  em {
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    font-style:normal;
+    padding-top: 0.1em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+    }
+
+  .bottom {
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+    font-size: 1em;
+    display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
